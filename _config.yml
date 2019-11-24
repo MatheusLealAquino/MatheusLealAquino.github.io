@@ -45,8 +45,8 @@ author_education_details:
   - college_logo: uff.png
     college_name: Universidade Federal Fluminense
     college_url: http://uff.br/
-    college_degree: Sistemas da Informação
-    description: Bacharel em Sistemas da Informação
+    college_degree: Sistemas de Informação
+    description: Bacharel em Sistemas de Informação
     visibility: true
 
 author_project_details:
