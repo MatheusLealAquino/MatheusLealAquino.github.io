@@ -7,14 +7,14 @@ url: "https://matheuslealaquino.github.io" # the base hostname & protocol for yo
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
+    - text: Home
+      url: /about/
     - text: Blog
       url: /blog
     # - text: Shop
     #   url : /shop/
-    - text: Sobre
-      url: /about/
-    - text: Entre em contato
-      url : /contact/
+    # - text: Entre em contato
+    #  url : /contact/
     - text: Styleguide
       url: /styleguide/
     
@@ -22,7 +22,7 @@ urls:
 
 author_logo: profile.png
 author: Matheus Leal
-author_bio: Aluno de Sistemas de Informação na Universidade Federal Fluminense (UFF). Trabalho como desenvolvedor web e freelancer, criando sites totalmente responsivos para smartphones, onde se concentra maior parte dos acessos na internet atualmente.
+author_bio: Aluno de Sistemas de Informação na Universidade Federal Fluminense. Trabalho como desenvolvedor full-stack, criando sites e aplicativos para Android e IOS.
 author_email: "matheusleal.a@gmail.com"
 author_location: Brasil
 author_website_url: "https://matheuslealaquino.github.io"
