@@ -29,7 +29,7 @@ layout: default
                             <p class="experience-time"><em>{{ exp.time }}</em></p>
                             <h6 class="experience-info"> {{ exp.company_name}}</h6>
                             <p class="experience-desc"> {{ exp.description }} </p>
-                            <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p> 
+                            <p><a href="{{exp.company_url}}" target="_blank">{{ exp.company_url}}</a></p> 
                         </div>
                     </div>
                     {% endif %}
@@ -52,7 +52,7 @@ layout: default
                             <h4 class="experience-title"> {{detail.college_degree }}</h4>
                             <h6 class="experience-info">{{detail.college_name}}</h6>
                             <p class="experience-desc"> {{detail.description}} </p>
-                            <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>                    
+                            <p><a href="{{detail.college_url}}" target="_blank">{{ detail.college_url}}</a></p>                    
                         </div>
                     </div>
                     {% endif %}
@@ -97,7 +97,7 @@ layout: default
                             <div class="col-md-6">
                                 <h4 class="certificate-title"> {{ certificate.certificate_title }}</h4>
                                 <h6 class="certificate-info"> {{ certificate.certificate_info}}</h6>
-                                <p><a href="{{certificate.certificate_url}}">{{ certificate.certificate_url}}</a></p> 
+                                <p><a href="{{certificate.certificate_url}}" target="_blank">{{ certificate.certificate_url}}</a></p> 
                             </div>
                         </div>
                     {% endif %}
