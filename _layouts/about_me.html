@@ -20,10 +20,13 @@ layout: default
                 {% if exp.visibility == true %}
                 <div class="row">
                         <div class="col-md-2">
-                            <img src="/assets/img/{{ exp.company_logo }}" class="company-logo" />
+                            {% if exp.company_logo %}
+                                <img src="/assets/img/{{ exp.company_logo }}" class="company-logo img-fluid" />
+                            {% endif %}
                         </div>
                         <div class="col-md-6">
                             <h4 class="experience-title"> {{ exp.designation }}</h4>
+                            <p class="experience-time"><em>{{ exp.time }}</em></p>
                             <h6 class="experience-info"> {{ exp.company_name}}</h6>
                             <p class="experience-desc"> {{ exp.description }} </p>
                             <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p> 
@@ -42,8 +45,8 @@ layout: default
                 {% for detail in site.author_education_details %}
                 {% if detail.visibility == true %}
                 <div class="row">
-                        <div class="col-md-2">
-                            <img src="/assets/img/{{ detail.college_logo}}" class="company-logo" />
+                        <div class="col-md-2 align-self-center">
+                            <img src="/assets/img/{{ detail.college_logo}}" class="company-logo img-fluid" />
                         </div>
                         <div class="col-md-6">
                             <h4 class="experience-title"> {{detail.college_degree }}</h4>
@@ -89,13 +92,12 @@ layout: default
                     {% if certificate.visibility == true %}
                         <div class="row">
                             <div class="col-md-2">
-                                <img src="/assets/img/{{certificate.certificate_thumbnail}}" class="company-logo" />
+                                <img src="/assets/img/{{certificate.certificate_thumbnail}}" class="company-logo img-fluid" />
                             </div>
                             <div class="col-md-6">
-                                <h4 class="experience-title"> {{ certificate.certificate_title }}</h4>
-                                <h6 class="experience-info"> {{ certificate.certificate_info}}</h6>
-                                <p class="experience-desc"> {{ certificate.certificate_description }} </p>
-                                <p><a href="{{exp.company_url}}">{{ certificate.certificate_url}}</a></p> 
+                                <h4 class="certificate-title"> {{ certificate.certificate_title }}</h4>
+                                <h6 class="certificate-info"> {{ certificate.certificate_info}}</h6>
+                                <p><a href="{{certificate.certificate_url}}">{{ certificate.certificate_url}}</a></p> 
                             </div>
                         </div>
                     {% endif %}

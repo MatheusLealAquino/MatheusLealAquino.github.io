@@ -10,7 +10,9 @@ urls:
     - text: Home
       url: /about/
     - text: Blog
-      url: /blog
+      url: /blog/
+    # - text: Projetos
+    #   url : /projetos/
     # - text: Shop
     #   url : /shop/
     # - text: Entre em contato
@@ -20,25 +22,77 @@ urls:
     
 # Edit these details 
 
-author_logo: profile.png
+author_logo: matheus.jpg
 author: Matheus Leal
 author_bio: Aluno de Sistemas de Informação na Universidade Federal Fluminense. Trabalho como desenvolvedor full-stack, criando sites e aplicativos para Android e IOS.
 author_email: "matheusleal.a@gmail.com"
 author_location: Brasil
 author_website_url: "https://matheuslealaquino.github.io"
 
-author_work_experiences: 
-  - company_name: Google
-    company_logo: google.png
-    company_url: https://google.com
-    designation: Software Engineer
-    description: Worked on various Google Products
+author_work_experiences:
+  - company_name: EDCOM CONSULTORIA
+    company_logo: edcom.png
+    time: dez de 2018 – o momento
+    company_url: https://www.edcom.com.br/
+    designation: Desenvolvedor Web - Full Stack 
+    description: '- Desenvolvimento e manutenção de sistemas web: <br>
+                  <ul>
+                    <li>PHP</li>
+                    <li>NodeJS</li>
+                    <li>C#</li>
+                    <li>MySQL</li>
+                    <li>SQL Server</li>
+                    <li>Docker</li>
+                    <li>Vue.Js: Bootstrap-Vue e Quasar Framework</li>
+                    <li>Bootstrap</li>
+                    <li>Wordpress</li>
+                  </ul>'
+    visibility: true 
+  - company_name: EDCOM CONSULTORIA
+    # company_logo: edcom.png
+    time: jun de 2018 – nov de 2018
+    company_url: https://www.edcom.com.br/
+    designation: Estágio - Desenvolvedor Web - Full Stack 
+    description: '- Desenvolvimento e manutenção de sistemas web: <br>
+                  <ul>
+                    <li>PHP</li>
+                    <li>C#</li>
+                    <li>NodeJS</li>
+                    <li>MySQL</li>
+                    <li>SQL Server</li>
+                    <li>Bootstrap</li>
+                    <li>Wordpress</li>
+                  </ul>'
     visibility: true
-  - company_name: Microsoft
-    company_logo: microsoft.png
-    company_url: https://microsoft.com
-    designation: Azure Developer
-    description: Worked on various Azure Cloud Products
+  - company_name: STI UFF - Superintendência de Tecnologia da Informação
+    company_logo: sti.png
+    time: nov de 2017 – jun de 2018
+    company_url: http://www.uff.br/sti
+    designation: Estágio - Desenvolvedor Java
+    description: '- Desenvolvimento e manutenção de aplicações Java utilizando: <br> 
+      <ul>
+        <li>Spring Boot</li>
+        <li>JSP</li>
+        <li>Oracle Database</li>
+        <li>Docker</li>
+        <li>Bootstrap</li>
+        <li>JQuery</li>
+      </ul>'
+    visibility: true
+  - company_name: Coordenação de Educação a Distância
+    company_logo: logocead.png
+    time: jan de 2017 – nov de 2017
+    company_url: http://www.cead.uff.br/site/
+    designation: Estágio - Desenvolvedor Web
+    description: '- Criação de sites utilizando: <br>
+      <ul>
+        <li>Bootstrap</li>
+        <li>JQuery</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>Wordpress</li>
+      </ul>
+      - Gerenciamento da plataforma Moodle. <br> - Suporte aos usuários da plataforma Moodle.'
     visibility: true
 
 author_education_details:
@@ -62,15 +116,13 @@ author_project_details:
     visibility: true
 
 author_certificate_details:
-  - certificate_thumbnail: gamershub.png
-    certificate_title: Gamers Hub
-    certificate_description: A Platform built for Gamers and Game Devs
-    certificate_url: https://gamershub.in
+  - certificate_thumbnail: udemy.png
+    certificate_title: Vue JS 2.0 - Mastering Web Apps
+    certificate_url: https://www.udemy.com/certificate/UC-L6LFQ3PP/
     visibility: true
-  - certificate_thumbnail: programmingebooks.png
-    certificate_title: Programming Ebooks
-    certificate_description: A Platform to easily find and read programming books
-    certificate_url: https://programmingebooks.com
+  - certificate_thumbnail: udemy.png
+    certificate_title: 'Curso online Git Completo: Do básico ao avançado' 
+    certificate_url: https://www.udemy.com/certificate/UC-EUQHX5R7/
     visibility: true
 
 # social links
