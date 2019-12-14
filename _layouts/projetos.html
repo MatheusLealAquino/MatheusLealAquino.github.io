@@ -19,17 +19,17 @@ layout: default
               {% endif %}
             </div>
             <div class="col-md-6 p-1 mx-auto">
-              <div id="carouselExampleControls{{countProject}}" class="carousel slide" data-ride="carousel">
+              <div id="carouselExampleControls{{countProject}}" class="carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
                   {% assign count = 0 %}
                   {% for image in project.images %}
                     {% if count == 0 %}
-                      <div class="carousel-item active" data-interval="false">
-                        <img src="/assets/img/{{image.url}}" class="d-block w-100" alt="...">
+                      <div class="carousel-item active">
+                        <img src="/assets/img/{{image.url}}" class="d-block w-100">
                       </div>
                     {% else %}
-                      <div class="carousel-item" data-interval="false">
-                        <img src="/assets/img/{{image.url}}" class="d-block w-100" alt="...">
+                      <div class="carousel-item">
+                        <img src="/assets/img/{{image.url}}" class="d-block w-100">
                       </div>
                     {% endif %}
                     {% assign count = count | plus: 1 %}
@@ -52,3 +52,14 @@ layout: default
     </div>
   </div>
 </div>
+
+<script>
+jQuery(window).load(function() {
+ 
+ /*
+     Stop carousel
+ */
+ $('.carousel').carousel('pause');
+
+});
+</script>
