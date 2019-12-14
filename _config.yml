@@ -152,7 +152,7 @@ author_projects:
     images:
       -  url: cead/screen1.png
       -  url: cead/screen2.png
-    project_url:
+    project_url: http://www.cead.uff.br/
     visibility: true
 
   - project_title: Meganet
