@@ -169,17 +169,6 @@ author_projects:
     project_url: http://meganetinternet.com.br/
     visibility: true
 
-  - project_title: Lifting Group
-    project_info: 'Desenvolvimento de uma landing page para a Lifting Estaleiros, utilizando: <br>
-      <ul>
-        <li>Bootstrap v3.7</li>
-      </ul>'
-    images:
-      -  url: lifting/screen1.png
-      -  url: lifting/screen2.png
-    project_url: https://www.lifting.com.br/
-    visibility: true
-
   - project_title: Academy UFF
     project_info: 'Projeto realizado em conjunto durante a disciplina de Gerência de Projetos 2019.1 na Universidade Federal Fluminense.<br>
     Plataforma de e-commerce de cursos, utilizando as tecnologias: <br>
@@ -191,6 +180,17 @@ author_projects:
       - url: academyuff/screen1.png
       - url: academyuff/screen2.png
     project_url:
+    visibility: true
+
+  - project_title: Lifting Group
+    project_info: 'Desenvolvimento de uma landing page para a Lifting Estaleiros, utilizando: <br>
+      <ul>
+        <li>Bootstrap v3.7</li>
+      </ul>'
+    images:
+      -  url: lifting/screen1.png
+      -  url: lifting/screen2.png
+    project_url: https://www.lifting.com.br/
     visibility: true
 
 # social links
