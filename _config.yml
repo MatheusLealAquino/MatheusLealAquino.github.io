@@ -7,18 +7,18 @@ url: "https://matheuslealaquino.github.io" # the base hostname & protocol for yo
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Home
-      url: /#/
-    # - text: Blog
-    #  url: /blog/
-    # - text: Projetos
-    #   url : /projetos/
-    # - text: Shop
-    #   url : /shop/
-    # - text: Entre em contato
-    #  url : /contact/
-    # - text: Styleguide
-    #  url: /styleguide/
+  - text: Home
+    url: /#/
+  - text: Projetos
+    url: /projetos/
+  #- text: Blog
+  #  url: /blog/
+  # - text: Shop
+  #   url : /shop/
+  # - text: Entre em contato
+  #  url : /contact/
+  # - text: Styleguide
+  #  url: /styleguide/
     
 # Edit these details 
 
@@ -103,18 +103,6 @@ author_education_details:
     description: Bacharel em Sistemas de Informação
     visibility: true
 
-author_project_details:
-  - project_thumbnail: gamershub.png
-    project_title: Gamers Hub
-    project_description: A Platform built for Gamers and Game Devs
-    project_url: https://gamershub.in
-    visibility: true
-  - project_thumbnail: programmingebooks.png
-    project_title: Programming Ebooks
-    project_description: A Platform to easily find and read programming books
-    project_url: https://programmingebooks.com
-    visibility: true
-
 author_certificate_details:
   - certificate_thumbnail: udemy.png
     certificate_title: Vue JS 2.0 - Mastering Web Apps
@@ -125,13 +113,93 @@ author_certificate_details:
     certificate_url: https://www.udemy.com/certificate/UC-EUQHX5R7/
     visibility: true
 
+author_projects:
+  - project_title: Meu Canal
+    project_info: 'Desenvolvimento de uma visão do Netflix para a disciplina de Desenvolvimento Web na UFF, utilizando: <br>
+      <ul>
+        <li>Django</li>
+        <li>Bootstrap v3.7</li>
+      </ul>'
+    images:
+      -  url: meucanal/screen1.jpg
+      -  url: meucanal/screen2.jpg
+      -  url: meucanal/screen3.jpg
+      -  url: meucanal/screen4.jpg
+      -  url: meucanal/screen5.jpg
+      -  url: meucanal/screen6.jpg
+      -  url: meucanal/screen7.jpg
+      -  url: meucanal/screen8.jpg
+      -  url: meucanal/screen9.jpg
+    project_url:
+    visibility: true
+
+  - project_title: Rafa Atacama
+    project_info: 'Desenvolvimento de um site Wordpress para empresa dedicada a viagens ao Chile, utilizando: <br>
+      <ul>
+        <li>Wordpress</li>
+      </ul>'
+    images:
+      -  url: rafaatacama/screen1.png
+      -  url: rafaatacama/screen2.png
+    project_url: https://www.rafaatacama.com.br
+    visibility: true
+
+  - project_title: CEAD
+    project_info: 'Desenvolvimento de um tema Wordpress para a Coordenação de Educação a Distância da UFF, utilizando: <br>
+      <ul>
+        <li>Bootstrap v3.7</li>
+      </ul>'
+    images:
+      -  url: cead/screen1.png
+      -  url: cead/screen2.png
+    project_url:
+    visibility: true
+
+  - project_title: Meganet
+    project_info: 'Site do provedor de internet Meganet Internet.<br>
+    Além do design foi realizada a criação de uma página de administração ,tendo área do preço dos planos, editar slides e etc. <br>
+    Utilizando as seguintes tecnologias: <br>
+    <ul>
+      <li>PHP 7.1</li>
+      <li>Bootstrap v3.7</li>
+    </ul>'
+    images:
+      - url: meganet/screen1.png
+      - url: meganet/screen2.png
+    project_url: http://meganetinternet.com.br/
+    visibility: true
+
+  - project_title: Lifting Group
+    project_info: 'Desenvolvimento de uma landing page para a Lifting Estaleiros, utilizando: <br>
+      <ul>
+        <li>Bootstrap v3.7</li>
+      </ul>'
+    images:
+      -  url: lifting/screen1.png
+      -  url: lifting/screen2.png
+    project_url: https://www.lifting.com.br/
+    visibility: true
+
+  - project_title: Academy UFF
+    project_info: 'Projeto realizado em conjunto durante a disciplina de Gerência de Projetos 2019.1 na Universidade Federal Fluminense.<br>
+    Plataforma de e-commerce de cursos, utilizando as tecnologias: <br>
+    <ul>
+      <li>Quasar Framework (Vue.JS)</li>
+      <li>Loopback v3 (Node.JS)</li>
+    </ul>'
+    images:
+      - url: academyuff/screen1.png
+      - url: academyuff/screen2.png
+    project_url:
+    visibility: true
+
 # social links
 # twitter_username: johndoe
 github_username:  MatheusLealAquino
 # facebook_username: johndoe
 linkedin_username: matheus-leal
 # behance_username: johndoe
-instagram_username: matheusleal_a
+# instagram_username: matheusleal_a
 # medium_username: johndoe
 telegram_username: MatheusLealA
 # dribbble_username: johndoe
