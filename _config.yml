@@ -9,10 +9,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
   - text: Home
     url: /#
+  - text: Blog
+    url: /blog/
   - text: Projetos
     url: /projetos
-  #- text: Blog
-  #  url: /blog/
   # - text: Shop
   #   url : /shop/
   # - text: Entre em contato
@@ -118,7 +118,7 @@ author_projects:
     project_info: 'Desenvolvimento de uma visão do Netflix para a disciplina de Desenvolvimento Web na UFF, utilizando: <br>
       <ul>
         <li>Django</li>
-        <li>Bootstrap v3.7</li>
+        <li>Bootstrap v4.1</li>
       </ul>'
     images:
       -  url: meucanal/screen1.jpg
@@ -247,8 +247,8 @@ algolia:
   search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
-paginate: 8
-per_page: 4
+paginate: 1
+per_page: 1
 paginate_path: "/blog/page/:num/"
 
 # minify 
