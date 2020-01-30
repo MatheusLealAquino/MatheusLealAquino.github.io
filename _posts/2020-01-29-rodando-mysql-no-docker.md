@@ -21,7 +21,7 @@ thumbnail: docker.png
 
 <h2>O que é um container?</h2>
 <p>Um container é uma unidade de software que engloba  código e todas as suas dependências então a aplicação roda rapidamente e a transferência de um computador para outro é feita de forma confiável.</p>
-<p>Ficou díficil de entender? Bem, imagine o container como uma máquina virtual bem mais simplificada e que só possui o necessário para a execução da sua aplicação. Caso ainda não tenha entendido siga até o fim, que botar a mão na massa pode te ajudar, ok?</p>
+<p>Ficou difícil de entender? Bem, imagine o container como uma máquina virtual bem mais simplificada e que só possui o necessário para a execução da sua aplicação. Caso ainda não tenha entendido siga até o fim, que botar a mão na massa pode te ajudar, ok?</p>
 
 <h2>Rodando o MySQL em um container Docker</h2>
 <p>Agora vamos botar a mão na massa e ver que o básico do Docker não tem mistério.</p>
@@ -33,14 +33,14 @@ thumbnail: docker.png
 </ul>
 
 <p>O primeiro passo é baixar a imagem que você quer utilizar em seu container, no nosso caso vamos baixar a imagem do MySQL (<a href="https://hub.docker.com/_/mysql" target="_blank">https://hub.docker.com/_/mysql</a>).</p>
-<p>Para isso, após a instalação do Docker e sua inicialização, vamos abrir o terminal e digitar o seguinte comando: <br> <b>"docker pull mysql:latest"</b><br> Após executar este comando, sera iniciado o download da ultima versão da imagem disponibilizada pela equipe do MySQL.</p>
+<p>Para isso, após a instalação do Docker e sua inicialização, vamos abrir o terminal e digitar o seguinte comando: <br> <b>"docker pull mysql:latest"</b><br> Após executar este comando, será iniciado o download da última versão da imagem disponibilizada pela equipe do MySQL.</p>
 
 <p>Com a imagem salva podemos criar um container a partir desta imagem e começar a usar o MySQL sem que seja necessário realizar uma instalação de um cliente em sua máquina. Para criar o container executamos o seguinte comando: <br> 
-<b>"docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_USER=root --name meu_container mysql:latest"</b><br> Vamos análisar o que este comando faz:</p>
+<b>"docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_USER=root --name meu_container mysql:latest"</b><br> Vamos analisar o que este comando faz:</p>
 
 <ul>
   <li>run: Responsável por inicializar o container.</li>
-  <li>-d: Habilitar o modo independente, fazer o container rodar em backgroud.</li>
+  <li>-d: Habilitar o modo independente, fazer o container rodar em background.</li>
   <li>-p: Indicar as portas da aplicação (portaExposta):(portaInterna). Ao colocar 3306:3306 estamos expondo para acesso em nossa máquina     na porta 3306, sendo possível acessar nosso banco de dados de qualquer aplicativo de gerenciamento de banco de dados.</li>
   <li>MYSQL_ROOT_PASSWORD: Senha para acesso ao MySQL.</li>
   <li>MYSQL_USER: Usuário para acesso ao MySQL.</li>
