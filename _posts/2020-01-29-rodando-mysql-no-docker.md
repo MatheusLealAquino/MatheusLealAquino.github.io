@@ -21,7 +21,7 @@ thumbnail: docker.png
 
 <h2>O que é um container?</h2>
 <p>Um container é uma unidade de software que engloba  código e todas as suas dependências então a aplicação roda rapidamente e a transferência de um computador para outro é feita de forma confiável.</p>
-<p>Ficou difícil de entender? Bem, imagine o container como uma máquina virtual bem mais simplificada e que só possui o necessário para a execução da sua aplicação. Caso ainda não tenha entendido siga até o fim, que botar a mão na massa pode te ajudar, ok?</p>
+<p>Ficou difícil de entender? Bem, imagine o container como uma máquina virtual bem mais simplificada e que só possui o necessário para a execução da sua aplicação. Caso ainda não tenha entendido siga até o fim porque botar a mão na massa pode te ajudar, ok?</p>
 
 <h2>Rodando o MySQL em um container Docker</h2>
 <p>Agora vamos botar a mão na massa e ver que o básico do Docker não tem mistério.</p>
@@ -49,6 +49,6 @@ thumbnail: docker.png
 </ul>
 
 <p>Após este comando, podemos executar o comando <b>"docker ps"</b> e será possível ver que existe um container rodando na porta 3306 xD.</p>
-<p>Após a sequência destes pequenos passos já temos o MySQL rodando em nossa máquina sem a necessidade de realizar instalações de executáveis ~Tirando o Docker (No Windows e MAC)~.</p>
+<p>Após a sequência destes pequenos passos já temos o MySQL rodando em nossa máquina sem a necessidade de realizar instalações de executáveis ~Tirando o Docker~.</p>
 <p>É isso pessoal, qualquer dúvida podem me mandar e-mail ou me mandar uma mensagem em alguma das minhas redes sociais. <br>
 Até o próximo post!</p>
