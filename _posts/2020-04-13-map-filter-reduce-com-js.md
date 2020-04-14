@@ -12,43 +12,43 @@ thumbnail: javascript.png
 
 <b>Imagine que temos o seguinte conjunto de dados:</b>
 <code>
-  const carros = [
-    {
-      nome: 'Onix',
-      motor: 1.0,
-      fabricante: 'Chevrolet',
-      kmRodados: 10010,
-      lancamento: 2019
-    },
-    {
-      nome: 'Kwid',
-      motor: 1.0,
-      fabricante: 'Renault',
-      kmRodados: 10000,
-      lancamento: 2018
-    },
-    {
-      nome: 'Up!',
-      motor: 1.0,
-      fabricante: 'Volkswagen',
-      kmRodados: 100000,
-      lancamento: 2017
-    },
-    {
-      nome: 'Sandero',
-      motor: 1.6,
-      fabricante: 'Renault',
-      kmRodados: 20000,
-      lancamento: 2018
-    },
-    {
-      nome: 'Uno',
-      motor: 1.0,
-      fabricante: 'Fiat',
-      kmRodados: 20500,
-      lancamento: 2000
-    }
-  ]
+  const carros = [<br>
+    {<br>
+      nome: 'Onix',<br>
+      motor: 1.0,<br>
+      fabricante: 'Chevrolet',<br>
+      kmRodados: 10010,<br>
+      lancamento: 2019<br>
+    },<br>
+    {<br>
+      nome: 'Kwid',<br>
+      motor: 1.0,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 10000,<br>
+      lancamento: 2018<br>
+    },<br>
+    {<br>
+      nome: 'Up!',<br>
+      motor: 1.0,<br>
+      fabricante: 'Volkswagen',<br>
+      kmRodados: 100000,<br>
+      lancamento: 2017<br>
+    },<br>
+    {<br>
+      nome: 'Sandero',<br>
+      motor: 1.6,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 20000,<br>
+      lancamento: 2018<br>
+    },<br>
+    {<br>
+      nome: 'Uno',<br>
+      motor: 1.0,<br>
+      fabricante: 'Fiat',<br>
+      kmRodados: 20500,<br>
+      lancamento: 2000<br>
+    }<br>
+  ]<br>
 </code>
 
 ```
@@ -68,42 +68,42 @@ E como isso funciona? Vamos imaginar o nosso array de objetos com informações 
 
 <b>Temos nosso array de carros modificado:</b>
 <code>
-  [
-    {
-      nome: 'Onix',
-      motor: 1.0,
-      fabricante: 'Chevrolet',
-      kmRodados: 20020,
-      lancamento: 2019
-    },
-    {
-      nome: 'Kwid',
-      motor: 1.0,
-      fabricante: 'Renault',
-      kmRodados: 20000,
-      lancamento: 2018
-    },
-    {
-      nome: 'Up!',
-      motor: 1.0,
-      fabricante: 'Volkswagen',
-      kmRodados: 200000,
-      lancamento: 2017
-    },
-    {
-      nome: 'Sandero',
-      motor: 1.6,
-      fabricante: 'Renault',
-      kmRodados: 40000,
-      lancamento: 2018
-    },
-    {
-      nome: 'Uno',
-      motor: 1.0,
-      fabricante: 'Fiat',
-      kmRodados: 41000,
-      lancamento: 2000
-    }
+  [<br>
+    {<br>
+      nome: 'Onix',<br>
+      motor: 1.0,<br>
+      fabricante: 'Chevrolet',<br>
+      kmRodados: 20020,<br>
+      lancamento: 2019<br>
+    },<br>
+    {<br>
+      nome: 'Kwid',<br>
+      motor: 1.0,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 20000,<br>
+      lancamento: 2018<br>
+    },<br>
+    {<br>
+      nome: 'Up!',<br>
+      motor: 1.0,<br>
+      fabricante: 'Volkswagen',<br>
+      kmRodados: 200000,<br>
+      lancamento: 2017<br>
+    },<br>
+    {<br>
+      nome: 'Sandero',<br>
+      motor: 1.6,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 40000,<br>
+      lancamento: 2018<br>
+    },<br>
+    {<br>
+      nome: 'Uno',<br>
+      motor: 1.0,<br>
+      fabricante: 'Fiat',<br>
+      kmRodados: 41000,<br>
+      lancamento: 2000<br>
+    }<br>
   ]
 </code>
 
@@ -116,35 +116,35 @@ The filter() method creates a new array with all elements that pass the test imp
 <p>O método filter retorna um novo array com base nos valores que retornarem <i>true</i> do método passado como callback. Utilizando nosso array de carro, vamos filtrar para os carros que foram lançados após 2017.</p>
 
 <code>
-  const carrosMaisNovos = carros.filter(el => {
-    return el.lancamento > 2017;
-  })
+  const carrosMaisNovos = carros.filter(el => {<br>
+    return el.lancamento > 2017;<br>
+  })<br>
 </code>
 
 <b>Temos como retorno:</b>
 <code>
-  [
-    {
-      nome: 'Onix',
-      motor: 1.0,
-      fabricante: 'Chevrolet',
-      kmRodados: 20020,
-      lancamento: 2019
-    },
-    {
-      nome: 'Kwid',
-      motor: 1.0,
-      fabricante: 'Renault',
-      kmRodados: 20000,
-      lancamento: 2018
-    },
-    {
-      nome: 'Sandero',
-      motor: 1.6,
-      fabricante: 'Renault',
-      kmRodados: 40000,
-      lancamento: 2018
-    }
+  [<br>
+    {<br>
+      nome: 'Onix',<br>
+      motor: 1.0,<br>
+      fabricante: 'Chevrolet',<br>
+      kmRodados: 20020,<br>
+      lancamento: 2019<br>
+    },<br>
+    {<br>
+      nome: 'Kwid',<br>
+      motor: 1.0,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 20000,<br>
+      lancamento: 2018<br>
+    },<br>
+    {<br>
+      nome: 'Sandero',<br>
+      motor: 1.6,<br>
+      fabricante: 'Renault',<br>
+      kmRodados: 40000,<br>
+      lancamento: 2018<br>
+    }<br>
   ]
 </code>
 
@@ -158,10 +158,10 @@ The filter() method creates a new array with all elements that pass the test imp
 <p>Após multiplicar as quilometragens, reduzir nosso array para os carros que possuem o lançamento após 2017, agora vamos realizar a soma do total de quilometragem destes carros filtrados. E para isso usaremos o reduce em que este método consiste em percorrer o array e retornar um único valor após sua execução. Este método possui um acumulador que é a variável que mantém o registro da última soma realizada, uma variável currentElement que é o <i>n</i> item do array utilizado e a variável initialValue que passa o valor inicial para a variável acumuladora.</p>
 
 <code>
-  const initialValue = 0;
-  const totalKm = carrosMaisNovos.reduce((accumulator, currentElement) => {
-    return accumulator + currentElement.kmRodados;
-  }, initialValue);
+  const initialValue = 0;<br>
+  const totalKm = carrosMaisNovos.reduce((accumulator, currentElement) => {<br>
+    return accumulator + currentElement.kmRodados;<br>
+  }, initialValue);<br>
   // totalKm = 80020
 </code>
 
