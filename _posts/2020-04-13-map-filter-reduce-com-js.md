@@ -51,6 +51,8 @@ thumbnail: javascript.png
   ]
 </pre>
 
+<h5>Map:</h5>
+
 ```
 The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 ```
@@ -107,6 +109,7 @@ E como isso funciona? Vamos imaginar o nosso array de objetos com informações 
   ]
 </pre>
 
+<h5>Filter:</h5>
 
 ```
 The filter() method creates a new array with all elements that pass the test implemented by the provided function.
@@ -149,6 +152,8 @@ The filter() method creates a new array with all elements that pass the test imp
 </pre>
 
 <p>Bem simples, não? O método filter é bem útil para implementar, por exemplo, uma busca em uma tabela na sua aplicação.</p>
+
+<h5>Reduce:</h5>
 
 ```
  The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
