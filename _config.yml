@@ -30,9 +30,24 @@ author_location: Brasil
 author_website_url: "https://matheuslealaquino.github.io"
 
 author_work_experiences:
+  - company_name: Parcelex
+    company_logo: parcelex.png
+    time: set de 2020 – o momento
+    company_url: https://www.parcelex.com.br/
+    designation: Desenvolvedor de Software - Full Stack - Tech Lead
+    description: '- Desenvolvimento da plataforma de pagamentos: <br>
+                  <ul>
+                    <li>NodeJS</li>
+                    <li>Vue.Js</li>
+                    <li>AWS</li>
+                    <li>Lambda</li>
+                    <li>MongoDB</li>
+                    <li>Docker</li>
+                  </ul>'
+    visibility: true 
   - company_name: EDCOM CONSULTORIA
     company_logo: edcom.png
-    time: dez de 2018 – o momento
+    time: dez de 2018 – ago de 2020
     company_url: https://www.edcom.com.br/
     designation: Desenvolvedor Web - Full Stack 
     description: '- Desenvolvimento e manutenção de sistemas web: <br>
@@ -41,6 +56,7 @@ author_work_experiences:
                     <li>NodeJS</li>
                     <li>C#</li>
                     <li>MySQL</li>
+                    <li>MongoDB</li>
                     <li>SQL Server</li>
                     <li>Docker</li>
                     <li>Vue.Js: Bootstrap-Vue e Quasar Framework</li>
