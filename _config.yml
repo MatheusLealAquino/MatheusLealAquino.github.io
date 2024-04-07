@@ -13,14 +13,6 @@ urls:
     url: /blog/
   - text: Projetos
     url: /projetos
-  # - text: Shop
-  #   url : /shop/
-  # - text: Entre em contato
-  #  url : /contact/
-  # - text: Styleguide
-  #  url: /styleguide/
-    
-# Edit these details 
 
 author_logo: matheus.jpg
 author: Matheus Leal
@@ -30,6 +22,21 @@ author_location: Brasil
 author_website_url: "https://matheuslealaquino.github.io"
 
 author_work_experiences:
+  - - company_name: Caju
+      company_logo: cajubeneficios_logo.jpeg
+      time: set de 2023 – o momento
+      company_url: https://www.caju.com.br/
+      designation: Desenvolvedor Back-end
+      description: '- Desenvolvimento da plataforma de pagamentos: <br>
+                    <ul>
+                      <li>Scala</li>
+                      <li>MySQL</li>
+                      <li>DynamoDB</li>
+                      <li>Lambda</li>
+                      <li>Kafka</li>
+                      <li>Docker</li>
+                    </ul>'
+      visibility: true
   - company_name: Parcelex
     company_logo: parcelex.png
     time: set de 2020 – o momento
